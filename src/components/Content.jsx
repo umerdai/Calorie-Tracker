@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import bgVideo from "../assets/VideoBg.mp4"; // Adjust path as needed
+import bgVideo from "../assets/Videobg.mp4"; // Adjust path as needed
 import "./Content.css";
 
 function Content() {
