@@ -1,8 +1,4 @@
-import React, { useState } from "react";
-
 const Navbar = ({ scrollToContact, scrollToService, scrollToReviews }) => {
-  const [serviceDropdownOpen, setServiceDropdownOpen] = useState(false);
-
   return (
     <header className="flex justify-end items-center p-4">
       <div className="flex mr-auto">
