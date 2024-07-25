@@ -1,16 +1,18 @@
 import React from "react";
 import styled from "styled-components";
 import "aos/dist/aos.css"; // Import AOS styles
-import AOS from "aos";
+
 const ImageSize = styled.img`
   width: 200px;
   height: 200px;
 `;
-const Heaading = styled.h1``;
 const Partners = () => {
   return (
     <div className="">
-      <h1 data-aos="fade-right" className="text-center m-10 font-bold text-3xl overflow-x-hidden ">
+      <h1
+        data-aos="fade-right"
+        className="text-center m-10 font-bold text-3xl overflow-x-hidden "
+      >
         Our Partners
       </h1>
       <div className="flex flex-wrap justify-around">
@@ -27,7 +29,7 @@ const Partners = () => {
           <ImageSize src="Peloton logo.png" alt="Image 3" />
           <h1 className="text-center">Peloton</h1>
         </div>
-        <div data-aos="fade-up" >
+        <div data-aos="fade-up">
           <ImageSize src="Headspace logo.png" alt="Image 4" />
           <h1 className="text-center">Headspace</h1>
         </div>
